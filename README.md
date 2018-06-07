@@ -21,7 +21,7 @@ I have developed and tested this on a Kali VM. A trial installation was done in 
 [http://cdimage.kali.org/kali-2018.2/kali-linux-2018.2-amd64.iso](
 http://cdimage.kali.org/kali-2018.2/kali-linux-2018.2-amd64.iso)
 
-Your mileage will vary for any other version or OS.
+Your mileage will vary for any other version or OS. Though the community fed back that it worked fine on OSX too.
 
 ## Pre-Reqs: OS Packages
 
@@ -34,27 +34,13 @@ This was the only required OS package.
 
 ## Pre-Reqs: Python3 Modules
 
-Only 3 modules were required in Kali 2018.2. To install those use “pip3 install” as shown below:
+To install the requirements use the following pip3 command:
 
 ```bash
-pip3 install cmd2
-pip3 install tqdm
-pip3 install gin
+pip3 install -r requirements.txt
 ```
+Tested in Kali and OSX and gets the job done.
 
-All other libraries had already been installed. If you want to use this on another base OS then you may also require these which can also be installed using pip3:
-
-```
-argparse
-colorama
-click
-requests
-tempfile
-shutil
-itertools
-ssl
-tabulate
-```
 ## Usage
 
 Launch the command prompt interface using the command below:
