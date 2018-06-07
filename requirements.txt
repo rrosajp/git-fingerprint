@@ -1,0 +1,8 @@
+gin
+argparse
+colorama
+click
+requests
+tabulate
+cmd2
+tqdm
