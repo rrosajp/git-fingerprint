@@ -6,7 +6,7 @@ Enumerate version information from a target using Git.
 
 The blog post explaining the technique is available here:
 
-[https://blog.secarma.co.uk/git-fingerprint-tool-release](https://blog.secarma.co.uk/git-fingerprint-tool-release)
+[https://blog.secarma.co.uk/labs/git-fingerprint-tool-release](https://blog.secarma.co.uk/labs/git-fingerprint-tool-release)
 
 This tool was publicly demonstrated at BSides Scotland 2018 along with a bunch of other techniques using Git with pentesting. The slides and video of that talk available here:
 
